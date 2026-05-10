@@ -1,0 +1,82 @@
+# =========================
+# FILES TO EXCLUDE FROM REPO
+# =========================
+
+# --- Server & Environment ---
+.env
+.env.*
+*.log
+error_log
+access_log
+
+# --- Database ---
+*.sql
+*.sql.gz
+*.db
+*.sqlite
+
+# --- Backups ---
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*~
+
+# --- OS generated files ---
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+._*
+
+# --- IDE & Editor files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# --- Dependencies ---
+node_modules/
+vendor/
+bower_components/
+
+# --- Build output (if using build tools) ---
+dist/
+build/
+.cache/
+
+# --- Large media files (use Git LFS or host externally) ---
+# Uncomment if you have large files:
+# *.mp4
+# *.mov
+# *.avi
+# *.zip
+# *.tar.gz
+# *.psd
+# *.ai
+
+# --- Sensitive/config files with credentials ---
+wp-config.php
+config.php
+includes/configure.php
+admin/includes/configure.php
+*.key
+*.pem
+*.crt
+
+# --- Cache & sessions ---
+cache/
+tmp/
+temp/
+sessions/
+
+# --- Upload directories (if user-generated content is large) ---
+# Uncomment if uploads are too large:
+# public_html/images/uploads/
+
+# --- osCommerce specific ---
+includes/work/
